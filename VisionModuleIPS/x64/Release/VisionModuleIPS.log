@@ -1,0 +1,63 @@
+﻿빌드 시작: 2015-11-26 오후 6:50:36
+     1>2 노드의 "D:\Project\sourec\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Release\VisionModuleIPS.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /ID:\Project\Source\IPS\IPS\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\VisionModuleIPS.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\program files\mvtec\halcon-12.0\include\cpp\HImage.h(797): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Program Files\Matrox Imaging\MIL\Include\mil.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Program Files\Matrox Imaging\MIL\Include\milsetup.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Program Files\Matrox Imaging\MIL\Include\milos.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\matrox imaging\mil\include\mil.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>C:\Program Files\Matrox Imaging\MIL\Include\milproto.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\matrox imaging\mil\include\MilDyn\mildisplay.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\matrox imaging\mil\include\MilDyn\milim.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /ID:\Project\Source\IPS\IPS\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\VisionModuleIPS.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt VisionModule.cpp VisionModuleIPS.cpp
+         VisionModule.cpp
+     1>VisionModule.cpp(21): warning C4273: 'CVisionModule::CVisionModule' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(37) : '{ctor}'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(26): warning C4273: 'CVisionModule::~CVisionModule' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(38) : '{dtor}'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(32): warning C4273: 'CVisionModule::Open' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(55) : 'Open'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(97): warning C4273: 'CVisionModule::Close' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(57) : 'Close'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(114): warning C4273: 'CVisionModule::Grab' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(56) : 'Grab'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(160): warning C4273: 'CVisionModule::GetMilSystem' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(69) : 'GetMilSystem'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(165): warning C4273: 'CVisionModule::GetMilDigitizer' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(70) : 'GetMilDigitizer'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(170): warning C4273: 'CVisionModule::GetMilLargeGrabBuf' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(71) : 'GetMilLargeGrabBuf'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(176): warning C4273: 'CVisionModule::SafeNet_Lock_LogIn' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(51) : 'SafeNet_Lock_LogIn'의 이전 정의를 참조하십시오.
+     1>VisionModule.cpp(193): warning C4273: 'CVisionModule::SafeNet_Lock_LogOut' : dll 링크가 일치하지 않습니다.
+                 d:\project\sourec\ips\visionmoduleips\VisionModuleIPS.h(52) : 'SafeNet_Lock_LogOut'의 이전 정의를 참조하십시오.
+         VisionModuleIPS.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Matrox Imaging\Mil\LIB" /LIBPATH:D:\Project\sourec\IPS\VisionModuleIPS /LIBPATH:"C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64" mil.lib halconcpp10xl.lib hasp_windows_x64_103955.lib /DEF:".\VisionModuleIPS.def" /MANIFEST /ManifestFile:"x64\Release\VisionModuleIPS.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.lib" /MACHINE:X64 /DLL x64\Release\VisionModuleIPS.res
+         x64\Release\stdafx.obj
+         x64\Release\VisionModule.obj
+         x64\Release\VisionModuleIPS.obj
+            D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.lib 라이브러리 및 D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         VisionModuleIPS.vcxproj -> D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.dll;#2" /manifest x64\Release\VisionModuleIPS.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       PostBuildEvent:
+         copy D:\Project\sourec\IPS\x64\Release\VisionModuleIPS.lib D:\Project\sourec\IPS\IPS\include
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         "x64\Release\VisionModuleIPS.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Release\VisionModuleIPS.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Project\sourec\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.86

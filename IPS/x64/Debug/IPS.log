@@ -1,0 +1,408 @@
+﻿빌드 시작: 2020-06-01 오후 5:54:45
+     1>2 노드의 "D:\Project\Source\IPS\IPS\IPS\IPS.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\IPS.unsuccessfulbuild"을(를) 만들고 있습니다.
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "IPS_h.h" /tlb "x64\Debug\IPS.tlb" IPS.idl 
+         Processing .\IPS.idl
+         IPS.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Project\Source\IPS\IPS /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /I..\include /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\IPS.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Project\Source\IPS\IPS /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /I..\include /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\IPS.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt btnenh.cpp btnenhctrl.cpp cal.cpp DialogSetup.cpp DialogSetupSystem.cpp DialogSetupTeaching.cpp include\Clientsok.CPP include\SVERSOK.CPP IPS.cpp IPSDlg.cpp
+         cal.cpp
+     1>cal.cpp(6): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(6): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(6): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(7): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(7): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(7): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(8): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(8): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(8): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(9): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(9): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(9): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(10): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(10): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(10): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(11): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(11): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(11): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(12): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(12): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(12): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(13): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(13): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(13): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(13): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(14): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(25): error C3861: 'ReadImage': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(26): error C3861: 'GetImageSize': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(31): error C3861: 'BinaryThreshold': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(32): error C3861: 'ClosingCircle': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(33): error C3861: 'Connection': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(34): error C3861: 'SelectShape': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(35): error C3861: 'AreaCenter': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(36): error C3861: 'Union1': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(39): error C3861: 'ClosingRectangle1': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(40): error C3861: 'Connection': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(41): error C3861: 'RegionFeatures': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(42): error C2039: 'TupleSortIndex' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(42): error C2039: 'TupleLength' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(43): error C3861: 'SelectObj': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(44): error C3861: 'Intersection': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(45): error C3861: 'CountObj': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(47): error C3861: 'ClosingRectangle1': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(48): error C3861: 'Connection': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(49): error C3861: 'RegionFeatures': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(50): error C2039: 'TupleSortIndex' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(50): error C2039: 'TupleLength' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(51): error C3861: 'SelectObj': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(52): error C3861: 'Intersection': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(53): error C3861: 'CountObj': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(56): error C3861: 'SmallestRectangle1': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(57): error C3861: 'CropRectangle1': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(59): error C3861: 'GetImageSize': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(61): error C3861: 'PartitionRectangle': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(62): error C3861: 'GrayClosingShape': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(63): error C3861: 'SelectGray': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(65): error C3861: 'AreaCenter': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(66): error C3861: 'VectorAngleToRigid': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(67): error C3861: 'AffineTransRegion': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(68): error C3861: 'RegionFeatures': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(69): error C2039: 'TupleLength' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(69): error C2039: 'TupleMean' : 'Halcon::HTuple'의 멤버가 아닙니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HTuple.h(122) : 'Halcon::HTuple' 선언을 참조하십시오.
+     1>cal.cpp(69): error C3861: 'TupleGenConst': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(70): error C3861: 'GenCircle': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(71): error C3861: 'ConcatObj': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(72): error C3861: 'DilationCircle': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(73): error C3861: 'SortRegion': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(74): error C3861: 'AreaCenter': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(77): error C3861: 'GenArbitraryDistortionMap': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(78): error C3861: 'GenArbitraryDistortionMap': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(80): error C3861: 'MapImage': 식별자를 찾을 수 없습니다.
+     1>cal.cpp(83): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(83): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+     1>cal.cpp(83): error C2259: 'Halcon::HObject' : 추상 클래스를 인스턴스화할 수 없습니다.
+                 다음 멤버가 원인입니다.
+                 'const char *Halcon::HObject::ClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(178) : 'Halcon::HObject::ClassName' 선언을 참조하십시오.
+                 'Halcon::HBool Halcon::HObject::Shared(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(171) : 'Halcon::HObject::Shared' 선언을 참조하십시오.
+                 'const char *Halcon::HObject::InstClassName(void) const' : abstract입니다.
+                 c:\program files\mvtec\halcon-12.0\include\cpp\HCPPUtil.h(177) : 'Halcon::HObject::InstClassName' 선언을 참조하십시오.
+         Generating Code...
+         Compiling...
+         DialogSetup.cpp
+     1>DialogSetup.cpp(103): warning C4244: '=' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>DialogSetup.cpp(109): warning C4244: '=' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>DialogSetup.cpp(101): warning C4101: 'ih' :참조되지 않은 지역 변수입니다.
+     1>DialogSetup.cpp(128): warning C4244: '=' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>DialogSetup.cpp(126): warning C4101: 'ih' :참조되지 않은 지역 변수입니다.
+         Generating Code...
+         Compiling...
+         IPSDlg.cpp
+     1>IPSDlg.cpp(439): warning C4244: '인수' : 'double'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(1114): warning C4101: 'rslt_num' :참조되지 않은 지역 변수입니다.
+     1>IPSDlg.cpp(1848): warning C4101: 'herr' :참조되지 않은 지역 변수입니다.
+     1>IPSDlg.cpp(2154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>IPSDlg.cpp(2387): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2412): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2424): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2424): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2424): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2424): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2523): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2535): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2535): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2535): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2535): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2645): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2645): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2646): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2646): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2656): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2656): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2657): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2657): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2675): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2675): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2675): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2675): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2676): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2676): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2676): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2676): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2826): warning C4244: '인수' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2842): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2850): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2850): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2850): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2850): warning C4244: '인수' : 'Hlong'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(2945): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3033): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3137): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3182): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3184): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3226): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3228): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3270): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3342): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3419): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3485): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3544): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3608): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3665): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3709): warning C4244: '=' : 'Hlong'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3816): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3817): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3818): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3819): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3823): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3824): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3825): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3826): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3839): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3851): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(3999): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4000): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4001): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4002): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4006): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4007): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4008): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4009): warning C4244: '=' : 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4022): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>IPSDlg.cpp(4034): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         IPS.cpp
+         DialogSetupTeaching.cpp
+         DialogSetupSystem.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         SVERSOK.CPP
+         Clientsok.CPP
+         btnenhctrl.cpp
+         btnenh.cpp
+     1>"D:\Project\Source\IPS\IPS\IPS\IPS.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:11.40

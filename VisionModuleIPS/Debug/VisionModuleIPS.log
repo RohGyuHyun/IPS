@@ -1,0 +1,15 @@
+﻿빌드 시작: 2016-03-11 오전 11:19:40
+     1>2 노드의 "D:\Project\Source\IPS\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트(build 대상)입니다.
+     1>PrepareForBuild:
+         "D:\Project\Source\IPS\IPS\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "Debug\VisionModuleIPS.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VisionModuleIPS.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\project\source\ips\ips\visionmoduleips\stdafx.h(40): fatal error C1083: 포함 파일을 열 수 없습니다. 'halconcpp.h': No such file or directory
+     1>"D:\Project\Source\IPS\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.48

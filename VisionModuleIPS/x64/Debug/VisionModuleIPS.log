@@ -1,0 +1,42 @@
+﻿빌드 시작: 2020-06-01 오후 5:54:35
+     1>2 노드의 "D:\Project\Source\IPS\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\VisionModuleIPS.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Project\sourec\IPS\IPS /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /ID:\Project\Source\IPS\IPS\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\VisionModuleIPS.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Project\sourec\IPS\IPS /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /I"C:\Program Files\MVTec\HALCON-12.0\include\halconcpp" /I"C:\Program Files\Matrox Imaging\MIL\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /I"C:\Program Files\3D Active Button Magic\Include" /ID:\Project\Source\IPS\IPS\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _AFXEXT /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\VisionModuleIPS.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt VisionModule.cpp VisionModuleIPS.cpp
+         Skipping... (no relevant changes detected)
+         VisionModuleIPS.cpp
+         VisionModule.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Matrox Imaging\Mil\LIB" /LIBPATH:"C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64" mil.lib halconcpp10xl.lib hasp_windows_x64_103955.lib /DEF:".\VisionModuleIPS.def" /MANIFEST /ManifestFile:"x64\Debug\VisionModuleIPS.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.pdb" /SUBSYSTEM:WINDOWS /STACK:"1000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.lib" /MACHINE:X64 /DLL x64\Debug\VisionModuleIPS.res
+         x64\Debug\VisionModuleIPS.dll.embed.manifest.res
+         x64\Debug\stdafx.obj
+         x64\Debug\VisionModule.obj
+         x64\Debug\VisionModuleIPS.obj
+         VisionModuleIPS.vcxproj -> D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\VisionModuleIPS.dll.embed.manifest" /manifest x64\Debug\VisionModuleIPS.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         VisionModuleIPS.vcxproj -> D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.dll
+       PostBuildEvent:
+         copy D:\Project\Source\IPS\IPS\x64\Debug\VisionModuleIPS.lib D:\Project\Source\IPS\IPS\IPS\include
+         copy D:\Project\Source\IPS\IPS\VisionModuleIPS\VisionModuleIPS.h D:\Project\Source\IPS\IPS\IPS\include
+         :VCEnd
+                 1개 파일이 복사되었습니다.
+                 1개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         "x64\Debug\VisionModuleIPS.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\VisionModuleIPS.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Project\Source\IPS\IPS\VisionModuleIPS\VisionModuleIPS.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:09.98

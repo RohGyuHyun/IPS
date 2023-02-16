@@ -1,0 +1,29 @@
+// IPS.idl : IPS.exe에 대한 형식 라이브러리 소스
+
+// 이 파일은 MIDL 컴파일러에 의해 처리되어
+// 형식 라이브러리(IPS.tlb)를 생성합니다.
+
+[ uuid(0B3FCD89-B0B3-4623-BF9C-252ECF477B75), version(1.0) ]
+library IPS
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CIPSDoc의 기본 디스패치 인터페이스
+	
+	[ uuid(86D01A7C-EFC9-4F93-A988-138496A89BFD) ]
+	dispinterface IIPS
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CIPSDoc의 클래스 정보
+	
+	[ uuid(B1B48768-FEC3-4C97-AF9D-4B6BFD8FD7C4) ]
+	coclass IPS
+	{
+		[default] dispinterface IIPS;
+	};
+};
